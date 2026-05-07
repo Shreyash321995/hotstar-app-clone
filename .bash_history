@@ -293,3 +293,80 @@ hostname ctl
 hostnamectl
 ssh -i "hotstar.pem" ubuntu@10.0.2.12
 exit
+clear
+pwd
+su docker ps 
+sudo docker ps 
+sudo docker run -dit --name hotstar-name -p80:80 hotstar-app
+sudo docker ps 
+docker save hotstar-app > hotstar-app.tar
+ls -l
+ls -lth
+git init
+git add .
+git config --global init.defaultBranch main
+git add .
+git commit -m "hotstarfile"
+git push 
+git push https://github.com/Shreyash321995/hotstar-app-clone
+git push --set-upstream https://github.com/Shreyash321995/hotstar-app-clone main
+git branch
+git push --set-upstream origin master
+git status
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/Shreyash321995/hotstar-app-clone.git
+git push -u origin main
+ssh-keygen -t ed25519 -C "shreyashdeshpande585@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git remote set-url origin git@github.com:Shreyash321995/hotstar-app-clone.git
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+git push origin main
+git add .
+git commit -m "final project"
+git push origin main
+git pull origin main --allow-unrelated-histories
+git pull origin main --no-rebase --allow-unrelated-histories
+git push origin main
+git add .
+git commit -m "merge fix"
+git push origin main
+git push origin main --force
+ls -l
+ls -la
+cd .github/workflows/
+ls -l
+vi deploy.yml 
+cat deploy.yml 
+git add .
+git commit -m "updated CI/CD pipeline"
+git push origin main
+cd
+rm -rf .ssh
+rm -f hotstar-app.tar
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch .ssh/id_ed25519 hotstar-app.tar" --prune-empty --tag-name-filter cat -- --all
+git push origin main --force
+git status
+git reset --hard
+ssh -T git@github.com
+ssh-keygen -t ed25519 -C "shreyashdeshpande585@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+chmod 400 /home/ubuntu/.ssh/id_ed25519
+ssh -T git@github.com
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch .ssh/id_ed25519 hotstar-app.tar" --prune-empty --tag-name-filter cat -- --all
+git push origin main --force
+git remote -v
+ssh-add -l
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C "shreyashdeshpande585@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-add -l
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git push origin main --force

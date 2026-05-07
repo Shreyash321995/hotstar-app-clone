@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1777721014,,"wq"
+|2,0,1778138338,,"wq"
+:q
+|2,0,1778133331,,"q"
 :q!
 |2,0,1777191472,,"q!"
-:q
-|2,0,1777191470,,"q"
 
 # Search String History (newest to oldest):
 
@@ -28,48 +28,53 @@
 
 # Registers:
 ""1	LINE	0
-	from flask import Flask
-|3,1,1,1,1,0,1777356719,"from flask import Flask"
+	269
+<                                                                                                                                                                                                        sudo docker pull ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest
+|3,1,1,1,1,0,1778138293,"                                                                                                                                                                                                        sudo docker pull ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1777356719,""
+	317
+<                                                                                                                                                                                                                                                                         ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest
+|3,0,2,1,1,0,1778138292,"                                                                                                                                                                                                                                                                         ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest"
 "3	LINE	0
-	app = Flask(__name__)
-|3,0,3,1,1,0,1777356718,"app = Flask(__name__)"
+	302
+<                                                                                                                                                                                                                                                              -e TMDB_API_KEY=${{ secrets.TMDB_API_KEY }} \
+|3,0,3,1,1,0,1778138291,"                                                                                                                                                                                                                                                              -e TMDB_API_KEY=${{ secrets.TMDB_API_KEY }} \\"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1777356718,""
+	265
+<                                                                                                                                                                                                                                                  --name hotstar-app \
+|3,0,4,1,1,0,1778138290,"                                                                                                                                                                                                                                                  --name hotstar-app \\"
 "5	LINE	0
-	@app.route('/')
-|3,0,5,1,1,0,1777356717,"@app.route('/')"
+	262
+<                                                                                                                                                                                                                                      sudo docker run -d -p 80:80 \
+|3,0,5,1,1,0,1778138290,"                                                                                                                                                                                                                                      sudo docker run -d -p 80:80 \\"
 "6	LINE	0
-	def home():
-|3,0,6,1,1,0,1777356717,"def home():"
+	                                                                                                                                                                                                                            sudo docker rm hotstar-app || true
+|3,0,6,1,1,0,1778138289,"                                                                                                                                                                                                                            sudo docker rm hotstar-app || true"
 "7	LINE	0
-	        return "OK"
-|3,0,7,1,1,0,1777356716,"        return \"OK\""
+	                                                                                                                                                                                                                  sudo docker stop hotstar-app || true
+|3,0,7,1,1,0,1778138288,"                                                                                                                                                                                                                  sudo docker stop hotstar-app || true"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1777356716,""
+	from flask import Flask
+|3,0,8,1,1,0,1777356719,"from flask import Flask"
 "9	LINE	0
-	    @app.route('/health')
-|3,0,9,1,1,0,1777356715,"    @app.route('/health')"
+	
+|3,0,9,1,1,0,1777356719,""
 
 # File marks:
-'0  50  32  ~/hotstar-app/app.py
-|4,48,50,32,1777721014,"~/hotstar-app/app.py"
-'1  50  24  ~/hotstar-app/app.py
-|4,49,50,24,1777719328,"~/hotstar-app/app.py"
-'2  50  20  ~/hotstar-app/app.py
-|4,50,50,20,1777718522,"~/hotstar-app/app.py"
-'3  50  20  ~/hotstar-app/app.py
-|4,51,50,20,1777718522,"~/hotstar-app/app.py"
-'4  4  34  ~/hotstar-app/app.py
-|4,52,4,34,1777362642,"~/hotstar-app/app.py"
-'5  4  34  ~/hotstar-app/app.py
-|4,53,4,34,1777362642,"~/hotstar-app/app.py"
-'6  4  34  ~/hotstar-app/app.py
-|4,54,4,34,1777362642,"~/hotstar-app/app.py"
+'0  48  247  ~/.github/workflows/deploy.yml
+|4,48,48,247,1778138338,"~/.github/workflows/deploy.yml"
+'1  1  0  ~/.github/workflows/deploy.yml
+|4,49,1,0,1778133331,"~/.github/workflows/deploy.yml"
+'2  1  0  ~/.github/workflows/deploy.yml
+|4,50,1,0,1778133331,"~/.github/workflows/deploy.yml"
+'3  50  32  ~/hotstar-app/app.py
+|4,51,50,32,1777721014,"~/hotstar-app/app.py"
+'4  50  24  ~/hotstar-app/app.py
+|4,52,50,24,1777719328,"~/hotstar-app/app.py"
+'5  50  20  ~/hotstar-app/app.py
+|4,53,50,20,1777718522,"~/hotstar-app/app.py"
+'6  50  20  ~/hotstar-app/app.py
+|4,54,50,20,1777718522,"~/hotstar-app/app.py"
 '7  4  34  ~/hotstar-app/app.py
 |4,55,4,34,1777362642,"~/hotstar-app/app.py"
 '8  4  34  ~/hotstar-app/app.py
@@ -78,10 +83,34 @@
 |4,57,4,34,1777362642,"~/hotstar-app/app.py"
 
 # Jumplist (newest first):
+-'  48  247  ~/.github/workflows/deploy.yml
+|4,39,48,247,1778138338,"~/.github/workflows/deploy.yml"
+-'  1  0  ~/.github/workflows/deploy.yml
+|4,39,1,0,1778138163,"~/.github/workflows/deploy.yml"
+-'  1  0  ~/.github/workflows/deploy.yml
+|4,39,1,0,1778133331,"~/.github/workflows/deploy.yml"
+-'  50  32  ~/hotstar-app/app.py
+|4,39,50,32,1777721014,"~/hotstar-app/app.py"
+-'  50  32  ~/hotstar-app/app.py
+|4,39,50,32,1777721014,"~/hotstar-app/app.py"
+-'  50  32  ~/hotstar-app/app.py
+|4,39,50,32,1777721014,"~/hotstar-app/app.py"
 -'  50  32  ~/hotstar-app/app.py
 |4,39,50,32,1777721014,"~/hotstar-app/app.py"
 -'  50  24  ~/hotstar-app/app.py
 |4,39,50,24,1777719328,"~/hotstar-app/app.py"
+-'  50  24  ~/hotstar-app/app.py
+|4,39,50,24,1777719328,"~/hotstar-app/app.py"
+-'  50  24  ~/hotstar-app/app.py
+|4,39,50,24,1777719328,"~/hotstar-app/app.py"
+-'  50  24  ~/hotstar-app/app.py
+|4,39,50,24,1777719328,"~/hotstar-app/app.py"
+-'  50  20  ~/hotstar-app/app.py
+|4,39,50,20,1777718522,"~/hotstar-app/app.py"
+-'  50  20  ~/hotstar-app/app.py
+|4,39,50,20,1777718522,"~/hotstar-app/app.py"
+-'  50  20  ~/hotstar-app/app.py
+|4,39,50,20,1777718522,"~/hotstar-app/app.py"
 -'  50  20  ~/hotstar-app/app.py
 |4,39,50,20,1777718522,"~/hotstar-app/app.py"
 -'  4  34  ~/hotstar-app/app.py
@@ -89,7 +118,31 @@
 -'  4  34  ~/hotstar-app/app.py
 |4,39,4,34,1777718452,"~/hotstar-app/app.py"
 -'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718452,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
 |4,39,4,34,1777718254,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718254,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718254,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777718254,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777362642,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777362642,"~/hotstar-app/app.py"
+-'  4  34  ~/hotstar-app/app.py
+|4,39,4,34,1777362642,"~/hotstar-app/app.py"
 -'  4  34  ~/hotstar-app/app.py
 |4,39,4,34,1777362642,"~/hotstar-app/app.py"
 -'  54  34  ~/hotstar-app/app.py
@@ -100,6 +153,102 @@
 |4,39,54,34,1777362585,"~/hotstar-app/app.py"
 -'  54  34  ~/hotstar-app/app.py
 |4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  54  34  ~/hotstar-app/app.py
+|4,39,54,34,1777362585,"~/hotstar-app/app.py"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
+-'  2  7  ~/hotstar-app/requirements.txt
+|4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
 -'  2  7  ~/hotstar-app/requirements.txt
 |4,39,2,7,1777360080,"~/hotstar-app/requirements.txt"
 -'  2  7  ~/hotstar-app/requirements.txt
@@ -134,152 +283,18 @@
 |4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
 -'  1  4  ~/hotstar-app/requirements.txt
 |4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  1  4  ~/hotstar-app/requirements.txt
-|4,39,1,4,1777360060,"~/hotstar-app/requirements.txt"
--'  53  34  ~/hotstar-app/app.py
-|4,39,53,34,1777359674,"~/hotstar-app/app.py"
--'  53  34  ~/hotstar-app/app.py
-|4,39,53,34,1777359674,"~/hotstar-app/app.py"
--'  53  34  ~/hotstar-app/app.py
-|4,39,53,34,1777359674,"~/hotstar-app/app.py"
--'  53  34  ~/hotstar-app/app.py
-|4,39,53,34,1777359674,"~/hotstar-app/app.py"
--'  53  34  ~/hotstar-app/app.py
-|4,39,53,34,1777359674,"~/hotstar-app/app.py"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  17  23  ~/hotstar-app/Dockerfile
-|4,39,17,23,1777359618,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
--'  1  93  ~/hotstar-app/Dockerfile
-|4,39,1,93,1777359576,"~/hotstar-app/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/.github/workflows/deploy.yml
+	*	1778138336	0
+	"	48	247
+	^	48	248
+	.	48	247
+	+	49	2
+	+	49	0
+	+	37	199
+	+	48	247
 
 > ~/hotstar-app/app.py
 	*	1777721005	0

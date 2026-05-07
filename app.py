@@ -47,7 +47,7 @@ def search():
 
 @app.route('/health')
 def health():
-    return "OK", 200
+    return jsonify("status":"OK"), 200
 
 
 if __name__ == "__main__":
